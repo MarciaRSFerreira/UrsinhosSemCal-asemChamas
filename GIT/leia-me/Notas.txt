@@ -1,0 +1,29 @@
+
+
+arrumar o italico no footer
+
+sugestao; utilize a tag span
+
+colocar um arquivo como index, tera que trocar ele nos navs.
+ 
+ obs ainda falta etapas de criação da conta git 
+ por exemplo a do linux e a do propio git 
+
+responder o que é gitpull
+
+
+fotos no quem somos 
+
+arrumar os titles (head)
+
+formatar o texto
+
+clone do projeto em sua maquina 
+empacota todo o trabalho em um commit
+e envia os pacotes em um repositorio remoto usando o push
+pull
+ao utilizar um repositorio pro outro dev 
+pull request 
+pedidos de melhoria ao repositorio principal  
+
+colocar as referencias 
