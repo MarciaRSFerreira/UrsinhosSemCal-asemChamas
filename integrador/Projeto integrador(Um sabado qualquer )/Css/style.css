@@ -1,0 +1,196 @@
+@charset "UTF-8";
+body{
+    width: 1100px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    background-color: #441F13;
+    
+}
+article{
+    width: 1090px;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    background-color:antiquewhite ;
+    float: left;
+    border-radius: 5px;
+}
+header
+{ 
+    padding: 10px auto 10px auto;
+    width: 1100px;
+    height: fit-content;
+    text-align: center;
+    clear: both;
+     
+}
+nav{
+    background-color:  #8EBAAC;;
+    width: 1100px;
+    height: fit-content;
+    text-align: center;
+    
+}
+
+nav,ul,li,a
+{   
+    border-radius: 5px;
+    display:inline-block; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+
+}
+li
+{
+    padding-right: 20px;
+}
+
+section{
+    width: 500px;
+    height: 700px;
+    background-color: transparent;
+    float: left;
+    margin: 0px 20px 10px 20px;
+    border-radius: 2px;
+
+    
+}
+.dolado{
+    width: 500px;
+    float: left;
+    
+
+ 
+}
+p{
+    text-indent: 25px;
+    text-align: justify;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    border-radius:10px;
+    display: flexbox;
+    align-items: center;
+}
+ul li a:hover{
+    color:aquamarine;
+    background-color:black;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+footer 
+{
+    width: 1100;
+    height: auto;
+    clear: both;
+    font-size: 18px;
+    background-color:#9D2828;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gold;
+    padding: 10px;
+    margin:0px auto 0px auto;
+    border-radius: 6px;
+    text-align: center;
+}
+.centralizando{
+    display: block;
+    margin: 20px auto;
+}
+.alinhamentoumpontoum{
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-top: 40px ;
+    margin-right: 20px;
+}
+
+/* .arrumandosection{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px ;
+}
+.arrumandosection2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px ;
+}
+
+.arrumandosection3{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px ;
+} */
+
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+.containertitle{
+display: flex;
+justify-content:center;
+
+}
+
+.titleumpontoum{
+    padding-right: 160px;
+}
+
+.titleumpontotres{
+    text-align: start;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.articleumpontotres{
+    margin: 0px;
+    width: 400px;
+    float:left;
+    margin-left: 110px;
+}
+
+.imgumpontotres{
+   margin-left: 60px;
+}
+.pdois{
+    clear: both;
+}
+
+.arrumandoarticleumpontoquatro
+{
+    margin:auto;
+
+
+    
+}
+
+.titleconsert{
+    display: inline-block;
+    text-align: center;
+}
+
+.imgumpontoquatro{
+    margin: 30px;
+}
+
+.sectionumpontoquatro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* aqui começa o 1.2.1 */
+/* .articleumpontodoispontoum{
+   
+} */
+
+.mainumpontodoispontoum{
+    display: flex;
+    justify-content: space-between;
+}
