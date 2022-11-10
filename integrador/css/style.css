@@ -49,11 +49,12 @@ li
 
 section{
     width: 500px;
-    height: 700px;
+    height: auto;
     background-color: transparent;
     float: left;
-    margin: 0px 20px 10px 20px;
+    margin: 10px 20px 10px 20px;
     border-radius: 2px;
+    align-items: center;
 
     
 }
@@ -151,7 +152,8 @@ justify-content:center;
 }
 
 .imgumpontotres{
-   margin-left: 60px;
+   
+   float: right;
 }
 .pdois{
     clear: both;
@@ -206,11 +208,11 @@ aside{
     
 }
 .nos4{
-    width: 400px;
+    width:400px;
     height: auto;
     float: left;
-    align-items: center;
-    padding: 0px 5px 5px 5px ;
+    align-items: flex-start;
+    padding: 10px 0px 10px 0px ;
 }
 .largala{
     float: left;
@@ -219,4 +221,21 @@ aside{
 }
 .qualquer{
     display: flex;
+}
+.control{
+   width: 400px;
+   height: fit-content;
+   float: left;
+   padding: 5px 10px 5px 10px;
+   align-items: center;
+   justify-content: space-between;
+}
+.cold{
+    float: left;
+    padding: auto;
+    width: 400px;
+    height: fit-content;
+}
+.biggie{
+    clear: both;
 }
